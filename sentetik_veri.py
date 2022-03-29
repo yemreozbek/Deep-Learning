@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  4 14:34:54 2021
-
-@author: yunus
-"""
-
 import os 
 import numpy as np
 import keras
