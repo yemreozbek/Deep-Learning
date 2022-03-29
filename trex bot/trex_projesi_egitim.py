@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 19 22:23:40 2020
-
-@author: root
-"""
-
 import glob
 import os
 import numpy as np
@@ -99,67 +91,3 @@ print("Test dogrulugu: %",score_train[1]*100)
 open("model.json","w").write(model.to_json())
 model.save_weights("trex_weight.h5")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
