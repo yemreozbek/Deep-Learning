@@ -78,7 +78,6 @@ model.compile(loss = "categorical_crossentropy",
               optimizer = "Adam", metrics = ["accuracy"])
 
 model.fit(x_train, y_train, epochs = 35, batch_size = 64)
-#4.bir epoc icin veri kumesindeki resimleri kacarli girmesi gerektigi
 
 score_train = model.evaluate(x_train, y_train)
 print("Egitim dogrulugu: %",score_train[1]*100)
