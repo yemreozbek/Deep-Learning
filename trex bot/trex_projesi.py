@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 19 18:19:19 2020
-
-@author: yunus
-"""
-
 import keyboard #klavye erisimi
 import uuid # ekran kaydi
 import time
