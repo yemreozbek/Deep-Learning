@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Dec 19 23:22:29 2020
-
-@author: root
-"""
-
 from keras.models import model_from_json
 import numpy as np
 from PIL import Image
